@@ -251,7 +251,45 @@
                     <view key="view" contentMode="scaleToFill" id="x1o-aD-fub">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="za1-3J-4xO">
+                                <rect key="frame" x="87.5" y="183.5" width="200" height="300"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vg6-3N-NaX">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Play"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqo-TK-QKa">
+                                        <rect key="frame" x="0.0" y="88" width="200" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Friends List"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGC-yg-dAF">
+                                        <rect key="frame" x="0.0" y="176" width="200" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="My Account"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUh-gr-RPF">
+                                        <rect key="frame" x="0.0" y="264" width="200" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Logout"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="YfK-27-omV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="az7-0f-6Cf"/>
+                                    <constraint firstAttribute="width" constant="200" id="lVi-Kh-Owy"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="za1-3J-4xO" firstAttribute="centerX" secondItem="x1o-aD-fub" secondAttribute="centerX" id="G1W-ob-sAj"/>
+                            <constraint firstItem="za1-3J-4xO" firstAttribute="centerY" secondItem="x1o-aD-fub" secondAttribute="centerY" id="Ip4-th-UT5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uNK-bG-T6M"/>
                     </view>
                 </viewController>
@@ -281,5 +319,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="S3z-iP-YC1"/>
         <segue reference="cUN-d1-m5S"/>
+        <segue reference="YfK-27-omV"/>
     </inferredMetricsTieBreakers>
 </document>
