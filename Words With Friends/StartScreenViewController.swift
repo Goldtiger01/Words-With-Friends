@@ -1,5 +1,5 @@
 //
-//  LoggedInViewController.swift
+//  ViewController.swift
 //  Words With Friends
 //
 //  Created by Hardy, Justin E on 12/7/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainMenuViewController: UIViewController {
+class StartScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,3 +17,4 @@ class MainMenuViewController: UIViewController {
     
     
 }
+
