@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFD457AF21C02D5C002EDF31 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD457AE21C02D5C002EDF31 /* User.swift */; };
+		BFD457B121C031BF002EDF31 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD457B021C031BF002EDF31 /* NavigationController.swift */; };
 		BFF6223D21BAE2EB002CC186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6223C21BAE2EB002CC186 /* AppDelegate.swift */; };
-		BFF6223F21BAE2EB002CC186 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6223E21BAE2EB002CC186 /* MainMenuViewController.swift */; };
+		BFF6223F21BAE2EB002CC186 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6223E21BAE2EB002CC186 /* StartScreenViewController.swift */; };
 		BFF6224221BAE2EB002CC186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF6224021BAE2EB002CC186 /* Main.storyboard */; };
 		BFF6224421BAE2ED002CC186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6224321BAE2ED002CC186 /* Assets.xcassets */; };
 		BFF6224721BAE2ED002CC186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF6224521BAE2ED002CC186 /* LaunchScreen.storyboard */; };
 		BFF6224F21BAED1D002CC186 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6224E21BAED1D002CC186 /* LoginViewController.swift */; };
 		BFF6225121BAED2F002CC186 /* AccountCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6225021BAED2F002CC186 /* AccountCreationViewController.swift */; };
-		BFF6225321BAEF25002CC186 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6225221BAEF25002CC186 /* LoggedInViewController.swift */; };
+		BFF6225321BAEF25002CC186 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6225221BAEF25002CC186 /* MainMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BFD457AE21C02D5C002EDF31 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BFD457B021C031BF002EDF31 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		BFF6223921BAE2EB002CC186 /* Words With Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Words With Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF6223C21BAE2EB002CC186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFF6223E21BAE2EB002CC186 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		BFF6223E21BAE2EB002CC186 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		BFF6224121BAE2EB002CC186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFF6224321BAE2ED002CC186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFF6224621BAE2ED002CC186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFF6224821BAE2ED002CC186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFF6224E21BAED1D002CC186 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BFF6225021BAED2F002CC186 /* AccountCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationViewController.swift; sourceTree = "<group>"; };
-		BFF6225221BAEF25002CC186 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		BFF6225221BAEF25002CC186 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +65,15 @@
 			isa = PBXGroup;
 			children = (
 				BFF6223C21BAE2EB002CC186 /* AppDelegate.swift */,
-				BFF6223E21BAE2EB002CC186 /* MainMenuViewController.swift */,
+				BFD457B021C031BF002EDF31 /* NavigationController.swift */,
+				BFF6223E21BAE2EB002CC186 /* StartScreenViewController.swift */,
 				BFF6224E21BAED1D002CC186 /* LoginViewController.swift */,
 				BFF6225021BAED2F002CC186 /* AccountCreationViewController.swift */,
-				BFF6225221BAEF25002CC186 /* LoggedInViewController.swift */,
+				BFF6225221BAEF25002CC186 /* MainMenuViewController.swift */,
+				BFD457AE21C02D5C002EDF31 /* User.swift */,
 				BFF6224021BAE2EB002CC186 /* Main.storyboard */,
-				BFF6224321BAE2ED002CC186 /* Assets.xcassets */,
 				BFF6224521BAE2ED002CC186 /* LaunchScreen.storyboard */,
+				BFF6224321BAE2ED002CC186 /* Assets.xcassets */,
 				BFF6224821BAE2ED002CC186 /* Info.plist */,
 			);
 			path = "Words With Friends";
@@ -145,9 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFF6224F21BAED1D002CC186 /* LoginViewController.swift in Sources */,
-				BFF6225321BAEF25002CC186 /* LoggedInViewController.swift in Sources */,
-				BFF6223F21BAE2EB002CC186 /* MainMenuViewController.swift in Sources */,
+				BFF6225321BAEF25002CC186 /* MainMenuViewController.swift in Sources */,
+				BFD457AF21C02D5C002EDF31 /* User.swift in Sources */,
+				BFF6223F21BAE2EB002CC186 /* StartScreenViewController.swift in Sources */,
 				BFF6223D21BAE2EB002CC186 /* AppDelegate.swift in Sources */,
+				BFD457B121C031BF002EDF31 /* NavigationController.swift in Sources */,
 				BFF6225121BAED2F002CC186 /* AccountCreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
