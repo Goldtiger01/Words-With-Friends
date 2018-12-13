@@ -51,10 +51,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6jg-gO-zsM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QyQ-jx-cLA"/>
+                            <constraint firstItem="6jg-gO-zsM" firstAttribute="centerX" secondItem="CD5-vJ-Bnj" secondAttribute="centerX" id="QyQ-jx-cLA"/>
                             <constraint firstItem="6jg-gO-zsM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pYF-nz-hvN"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="CD5-vJ-Bnj"/>
                     </view>
                     <navigationItem key="navigationItem" title="Main Menu" id="1Dm-OC-eiE">
                         <barButtonItem key="backBarButtonItem" title="Back" id="YeK-Or-BX2"/>
@@ -130,10 +130,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="zyn-t8-21v" firstAttribute="centerX" secondItem="EN3-cx-1NL" secondAttribute="centerX" id="rA1-4H-JyO"/>
+                            <constraint firstItem="zyn-t8-21v" firstAttribute="centerX" secondItem="by4-UV-yfb" secondAttribute="centerX" id="rA1-4H-JyO"/>
                             <constraint firstItem="zyn-t8-21v" firstAttribute="centerY" secondItem="EN3-cx-1NL" secondAttribute="centerY" id="t73-Pk-bSU"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="3uW-5f-13A"/>
+                        <viewLayoutGuide key="safeArea" id="by4-UV-yfb"/>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="6oz-xh-DI7">
                         <barButtonItem key="rightBarButtonItem" title="Create Account" id="MEW-iP-IEz">
@@ -234,9 +234,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="7Sn-Ck-r1j" firstAttribute="centerY" secondItem="f1e-uX-ZZ4" secondAttribute="centerY" id="hVy-l0-vnd"/>
-                            <constraint firstItem="7Sn-Ck-r1j" firstAttribute="centerX" secondItem="f1e-uX-ZZ4" secondAttribute="centerX" id="zY0-ec-us7"/>
+                            <constraint firstItem="7Sn-Ck-r1j" firstAttribute="centerX" secondItem="ouI-RF-ARH" secondAttribute="centerX" id="zY0-ec-us7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="oHA-pb-ULd"/>
+                        <viewLayoutGuide key="safeArea" id="ouI-RF-ARH"/>
                     </view>
                     <navigationItem key="navigationItem" title="Create Account" id="QDw-W0-Jxf"/>
                 </viewController>
@@ -259,6 +259,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Play"/>
+                                        <connections>
+                                            <segue destination="1SX-xD-eZ2" kind="show" id="EK3-EU-vXT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqo-TK-QKa">
                                         <rect key="frame" x="0.0" y="88" width="200" height="36"/>
@@ -287,15 +290,30 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="za1-3J-4xO" firstAttribute="centerX" secondItem="x1o-aD-fub" secondAttribute="centerX" id="G1W-ob-sAj"/>
+                            <constraint firstItem="za1-3J-4xO" firstAttribute="centerX" secondItem="zxF-7P-Tqp" secondAttribute="centerX" id="G1W-ob-sAj"/>
                             <constraint firstItem="za1-3J-4xO" firstAttribute="centerY" secondItem="x1o-aD-fub" secondAttribute="centerY" id="Ip4-th-UT5"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="uNK-bG-T6M"/>
+                        <viewLayoutGuide key="safeArea" id="zxF-7P-Tqp"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1cY-fN-IwW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3487" y="139"/>
+        </scene>
+        <!--Game UI-->
+        <scene sceneID="seP-E7-GMB">
+            <objects>
+                <viewController title="Game UI" id="1SX-xD-eZ2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UGm-eT-UwL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gNx-Cv-hNv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9D-24-GbG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4293.6000000000004" y="138.98050974512745"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NIP-F8-VYz">
