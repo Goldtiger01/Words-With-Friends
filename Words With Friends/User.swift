@@ -9,17 +9,18 @@
 import Foundation
 
 class User {
+    public static var users: [User] = []
+    public static var currentAccount: User? = nil
+    
     var username: String
     var password: String
-    var friends: [String]
     var description: String {
-        return "\(username)"
+        return "\(username)~\(password)"
     }
     
     init( Name username: String, Password password: String ) {
         self.username = username
         self.password = password
-        friends = []
     }
     
     func setPassword( Password password: String ) {

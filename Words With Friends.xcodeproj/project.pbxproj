@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BFD457AF21C02D5C002EDF31 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD457AE21C02D5C002EDF31 /* User.swift */; };
 		BFD457B121C031BF002EDF31 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD457B021C031BF002EDF31 /* NavigationController.swift */; };
+		BFEFC8E921CAB8860010E2C0 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEFC8E821CAB8860010E2C0 /* AccountViewController.swift */; };
 		BFF6223D21BAE2EB002CC186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6223C21BAE2EB002CC186 /* AppDelegate.swift */; };
 		BFF6223F21BAE2EB002CC186 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6223E21BAE2EB002CC186 /* StartScreenViewController.swift */; };
 		BFF6224221BAE2EB002CC186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF6224021BAE2EB002CC186 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		BFD457AE21C02D5C002EDF31 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BFD457B021C031BF002EDF31 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		BFEFC8E821CAB8860010E2C0 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		BFF6223921BAE2EB002CC186 /* Words With Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Words With Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF6223C21BAE2EB002CC186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF6223E21BAE2EB002CC186 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				BFF6224E21BAED1D002CC186 /* LoginViewController.swift */,
 				BFF6225021BAED2F002CC186 /* AccountCreationViewController.swift */,
 				BFF6225221BAEF25002CC186 /* MainMenuViewController.swift */,
+				BFEFC8E821CAB8860010E2C0 /* AccountViewController.swift */,
 				BFD457AE21C02D5C002EDF31 /* User.swift */,
 				BFF6224021BAE2EB002CC186 /* Main.storyboard */,
 				BFF6224521BAE2ED002CC186 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 			files = (
 				BFF6224F21BAED1D002CC186 /* LoginViewController.swift in Sources */,
 				BFF6225321BAEF25002CC186 /* MainMenuViewController.swift in Sources */,
+				BFEFC8E921CAB8860010E2C0 /* AccountViewController.swift in Sources */,
 				BFD457AF21C02D5C002EDF31 /* User.swift in Sources */,
 				BFF6223F21BAE2EB002CC186 /* StartScreenViewController.swift in Sources */,
 				BFF6223D21BAE2EB002CC186 /* AppDelegate.swift in Sources */,

@@ -15,5 +15,8 @@ class MainMenuViewController: UIViewController {
         
     }
     
-    
+    @IBAction func LogOut(_ sender: Any) {
+        User.currentAccount = nil
+        performSegue(withIdentifier: "Log Out", sender: sender)
+    }
 }
